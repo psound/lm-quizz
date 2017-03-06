@@ -1,0 +1,108 @@
+{
+    "quizName": "Quiz: Which Is Right for You: Buy or Lease?",
+    "quiz": [{
+        "question":"How long would you prefer to keep your car?",
+        "response": [
+            {"res": "3 years or less, or it doesn’t really matter.", "val": 3},
+            {"res": "More than 3 years.", "val": 1}],
+        "why": "Your tendency to hang onto a car for years or trade it in quickly will affect your choice to buy or lease.",
+        "value": 1
+        },
+        {
+        "question": "How do you use your car most of the time?",
+        "response": [
+            {"res": "I drive it on a daily commute.", "val": 1},
+            {"res": "My car is for short drives or weekend road trips only.", "val": 3}],
+        "why": "It’ll make a difference if you get a lot of regular use out of your vehicle or if it’s only going to be driven for certain situations.",
+        "value": 1
+        },
+        {
+        "question": "What’s your typical annual mileage?",
+        "response": [
+            {"res": "I drive less than 12,000 miles/year.", "val": 1},
+            {"res": "More than 12,000 miles/year.", "val": 3}],
+        "why": "Most leases include a 12,000 miles/year allowance and charge you an average of $0.15 for every mile beyond that.",
+        "value": 1
+        },
+        {
+        "question": "Is the monthly budget or the long-term asset more important to your finances?",
+        "response": [
+            {"res": "I need to have the lowest possible monthly payments.", "val": 3},
+            {"res": "I’m OK with a higher monthly payment if it means I’ll eventually own the car.", "val": 1}],
+        "why": "Think about how you like to budget and what your long-term plans are; this will help you find the right financing solution for your new car.",
+        "value": 1
+        },
+        {
+        "question": "What’s your approach to the latest automotive technology? ",
+        "response": [
+            {"res": "The new technology integrated in cars every few years makes me feel safer and more connected.", "val": 3},
+            {"res": " I like to learn what features my car has and get comfortable with them.", "val": 1}],
+        "why": "Early adopters love to buy the latest devices, from phones to headphones, and explore all the features. Not everyone is interested in investing the time or money in brand-new technology, though.",
+        "value": 1
+        },
+        {
+        "question": "How do you treat your vehicle?",
+        "response": [
+            {"res":"I’m very particular and careful.", "val":3},
+            {"res":"My car takes a beating.", "val": 1}],
+        "why": "We all know people whose cars are pristine years after they bought them, and we know people who think cars have bumpers specifically for bumping into things. You probably fall somewhere in the middle of this spectrum, but with a tendency toward one or the other.",
+        "value": 1
+        },
+        {
+        "question": "Which makes you more anxious: an expired warranty or an unavoidable end-of-lease inspection?",
+        "response": [
+            {"res": "I hardly want to drive anymore when the manufacturer’s warranty expires.", "val": 3},
+            {"res": "I can’t imagine the stress of a lease-end inspection and the required paperwork.", "val": 1}],
+        "why": "There are downsides to each option, of course. This is where you’ll have to pick your poison.",
+        "value": 1
+        },
+        {
+        "question": "Do you want to customize your new car?",
+        "response": [
+            {"res": "I’ll likely hang a rearview mirror ornament and buy some better floor mats.", "val": 3},
+            {"res": "I’m going all in with new rims and a spoiler.", "val": 1}],
+        "why": "Everyone does at least a little customization to make their car their own. The amount you want to do is what matters in this case.",
+        "value": 1
+        },
+        {
+        "question": "How much of a down payment are you comfortable with?",
+        "response": [
+            {"res":"I’d like to put down as little as possible.", "val":3},
+            {"res": "I’ve got a few grand I’ve saved up for this purpose.", "val":1}],
+        "why": "The down payment is cash you bring to the dealership to offset the amount of money you’ll be borrowing or leasing. The more you pay up front, the less you have to finance.",
+        "value": 1
+        },
+        {
+        "question": "Do you tend to worry more about maintenance costs or the monthly payment?",
+        "response": [
+            {"res":"I’m always concerned about having enough on hand to cover maintenance costs.", "val":1},
+            {"res": "The idea of having a car payment for 5, 6, or even 7 years makes me anxious.", "val":3}],
+        "why": "No car comes free; this is your chance to finance your car in a way that causes you the least stress.",
+        "value": 1
+        },
+        {
+        "question": "Where is your car parked most often?",
+        "response": [
+            {"res":"In my driveway or the office parking lot.", "val":3},
+            {"res": "On the street or in a public lot/garage.", "val": 1}],
+        "why": "No matter how you treat your car, life may treat it differently.",
+        "value": 1
+        },
+        {
+        "question": "How likely is your lifestyle to change in the next few years?",
+        "response": [
+            {"res": "I’m pretty settled; I don’t foresee much changing in the next three to five years.", "val":3},
+            {"res": "I’m looking for a new job, I might move and I’m thinking of starting a family.", "val": 1}],
+        "why": "The stability of your personal and professional life can make a difference in your choice to buy or lease.",
+        "value": 1
+        }
+    ],
+    "results": [
+        {"title": "Lease Your Next Car",
+        "text": "Because you’ll get a new car every few years, a lease can give you peace-of- mind as well as the latest and greatest features. Just be aware of any mileage limits, lease-end penalties, and shop around to take advantage of deals, especially those where you can put little or nothing down. For help shopping for your next vehicle,",
+        "hero": "lease.jpg"},
+        {"title": "Buy Your Next Car",
+        "text": "If you’re tough on your car or drive a lot, buying is the way to go. It’ll help you avoid costly lease-end penalties that can drive-up your overall costs, and in the end, your money is going to an asset you’ll own. For help shopping for your next vehicle,",
+        "hero": "buy.jpg"}
+    ]
+}
