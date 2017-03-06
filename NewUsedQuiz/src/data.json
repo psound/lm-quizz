@@ -1,0 +1,108 @@
+{
+    "quizName": "Quiz: Which Is Right for You: New or Used?",
+    "quiz": [{
+        "question":"Do you drive more than the national average of 13,000 miles a year?<sup class='sup'>1</sup>",
+        "response": [
+            {"res": "No, I drive far less.", "val": 1},
+            {"res": "I drive about the average amount, give or take.", "val": 0},
+            {"res": "I drive far more than that, especially for work.", "val": 3}],
+        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver.",
+        "value": 1
+        },
+        {
+        "question": "Do you consider yourself an early adopter?",
+        "response": [
+            {"res": "Yes, I upgrade my phone constantly and try every new app.", "val": 3},
+            {"res": "I like tech, but I prefer the tech I know.", "val": 3},
+            {"res": "I am not an early adopter at all. I still have a flip phone.", "val": 1}],
+        "why": "Early adopters love to buy the latest devices, from phones to headphones, and explore all the features. Not everyone is interested in investing the time or money in brand-new technology, though.",
+        "value": 1
+        },
+        {
+        "question": "Are you a nervous driver or a confident driver?",
+        "response": [
+            {"res": "The bad behavior of other drivers and potential breakdowns are always in the back of my mind.", "val": 3},
+            {"res": "Driving relaxes me; I’m at home on the road.", "val": 1}],
+        "why": "There's nothing wrong with either. Nervous drivers tend to be very aware of their surroundings, while confident drivers can sometimes be too assertive. Knowing your tendencies can help you buy a car that complements them.",
+        "value": 1
+        },
+        {
+        "question": "Do looks matter?",
+        "response": [
+            {"res": "Absolutely! My car is an extension of my personality.", "val": 3},
+            {"res": "Not too much, but I don’t want to drive a rusty old car, either.", "val": 1},
+            {"res": "No. I’ll drive whatever.", "val": 1}],
+        "why": "You'll look at this car nearly every day you own it, which might make this seemingly superficial question worth a bit more consideration.",
+        "value": 1
+        },
+        {
+        "question": "Do you have a vehicle to trade in that has equity (you owe less on it than it’s worth)?",
+        "response": [
+            {"res": "Yes, and it’s nearly paid off.", "val": 1},
+            {"res": "My trade-in is worth about what I owe on it.", "val": 3},
+            {"res": "I don’t have a trade-in, or I’m underwater with my current car.", "val":3}],
+        "why": "Having a vehicle to trade in makes a difference in the amount you finance, but only if the trade-in is paid off or if you owe less on it than it is worth.",
+        "value": 1
+        },
+        {
+        "question": "Does depreciation - the fact that a car is worth less as soon as you drive off the lot - concern you?",
+        "response": [
+            {"res":"Not nearly as much as reliability.", "val":2},
+            {"res":"I consider my car an asset, so yes.", "val": 1}],
+        "why": "As soon as you drive a new car off the lot, it takes a hit in value. Some people view their vehicle as an asset, so depreciation makes a difference. Others put a premium on the latest safety and technology and are willing to overlook the depreciation.",
+        "value": 1
+        },
+        {
+        "question": "Do you already have a mechanic you know and trust?",
+        "response": [
+            {"res": "Oh yes — I have a mechanic who I also consider a long-time friend.", "val": 1},
+            {"res": "I don’t have a regular mechanic, and I don’t know how to find a reliable one.", "val": 3},
+            {"res": "I consider myself a pretty handy person.", "val": 1}],
+        "why": "A trustworthy mechanic is a must for any car owner, whether it’s an independent shop or a dealership.",
+        "value": 1
+        },
+        {
+        "question": "How concerned are you with fuel economy?",
+        "response": [
+            {"res": "The longer I can go between fill-ups, the better.", "val": 1},
+            {"res": "I don’t drive much, so it’s less important than things like price or safety.", "val": 3},
+            {"res": "I’d like to be as clean and green as possible, but I still need a car.", "val": 1}],
+        "why": "People who don't drive much or who have highway commutes at steady speeds might have different fuel efficiency needs than people who travel mostly city streets every day. And for some, how 'green' a car is will matter quite a bit.",
+        "value": 1
+        },
+        {
+        "question": "Do you have a down payment (besides that trade-in) on hand?",
+        "response": [
+            {"res":"Yes", "val":1},
+            {"res": "No", "val":3}],
+        "why": "Having cash ready on the day you buy the car will make a difference in the amount you must finance. The less you borrow, the less you’ll pay in interest over the life of the loan. Used cars typically have steeper APR and monthly payments, so a higher down payment will help in the long-run. On new cars, manufacturers often have zero down payment and/or financing deals, which lessens the benefit of a healthy down payment.",
+        "value": 1
+        },
+        {
+        "question": "Do you tend to keep your cars for a long time?",
+        "response": [
+            {"res":"Yes, I had my last car for more than seven years.", "val":3},
+            {"res": "No, I like to upgrade my cars every couple of years.", "val":1},
+            {"res": "It depends on the car; I kept one for ages, but I’ve also traded in cars that didn’t work for me after a couple of years.", "val":1}],
+        "why": "Americans across the board are holding onto their cars longer. The average new-vehicle buyer will keep it for 6.5 years; used-vehicle buyers keep theirs for 5.3 years, on average.<sup>2</sup>",
+        "value": 1
+        },
+        {
+        "question": "Do you plan on using your car to join the ride-hailing economy (Uber, Lyft, etc.)?",
+        "response": [
+            {"res":"No, I hardly know what it is and I definitely don’t want to be giving strangers rides in my car.", "val":1},
+            {"res": "I might give my coworkers a ride sometimes.", "val": 1},
+            {"res": "Yes, I am going to provide ride hailing services with this car.", "val": 3}],
+        "why": "This is a question most buyers haven’t had to consider before, but for some it's an important question. As of October 2015, Uber alone had 327,000 active drivers in the U.S.<sup>3</sup>",
+        "value": 1
+        }
+    ],
+    "results": [
+        {"title": "New Car",
+        "text": "With perks like high-reliability, the newest features, more selection and a built-in warranty, a new car is a no-brainer if you can afford it. Just remember to shop around and do your research. Use the resources below for help deciding on the right car and",
+        "hero": "buynew.jpg"},
+        {"title": "Used Car",
+        "text": "You won’t necessarily get the most cutting edge tech, but you’ll get more bang for your buck since someone else has already taken the most significant hit of depreciation. Just make sure you set aside some money for maintenance. Use the resources below for help deciding on the right car and",
+        "hero": "buyused.jpg"}
+    ]
+}

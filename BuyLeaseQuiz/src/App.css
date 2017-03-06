@@ -1,0 +1,187 @@
+@import url('./css/bootstrap.css');
+
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: #002663;
+  font-family: proxima-nova, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+h2 {
+    font-size: 29px;
+}
+h3 {
+    font-size: 50px;
+    text-align: left;
+    padding-top: 0;
+    line-height: 32px;
+    font-size: 29px;
+    margin-top: 10px;
+}
+.container {
+    max-width:750px;
+}
+.clearfix {
+    clear: both;
+}
+.yellow {
+    color: #ecac00;
+    font-family: Century Schoolbook;
+}
+.lm-blue {
+    color:#002663;
+}
+.checkbox, .radio {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.core-layout__viewport {
+    padding-top: 0px;
+}
+.center {
+    text-align: center;
+}
+.subheaderbar {
+    background: #002663;
+    color: #fff;
+    text-align: left;
+    padding: 12px 10px;
+    font-family: Century Schoolbook;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.navbar .container img {
+    width:60%;
+    margin:20px 0;
+    max-width: 300px;
+}
+.whystate {
+    color: #ecac00;
+    text-decoration: underline;
+    font-style: italic;
+    cursor: pointer;
+    font-family: Century Schoolbook;
+    font-size: 16px;
+}
+.checkbox label, .radio label {
+    font-weight: normal;
+}
+.progress-bar {
+    background: #ecac00;
+}
+.progress {
+    border: 3px solid #002663;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.text-right em {
+    font-family: Century Schoolbook;
+}
+.modal-header {
+    border-bottom: 0;
+    padding: 0;
+}
+.modal-header .close {
+    background: #002663;
+    color: #fff;
+    padding: 10px;
+    opacity: 1;
+}
+.modal-body {
+    padding: 0 30px;
+    min-height: 250px;
+    display: table;
+}
+.modal-body p {
+    display: table-cell;
+    vertical-align: middle;
+}
+.modal-content {
+    border-radius: 0px;
+}
+.pager li>a {
+    background: #002663;
+    color: #fff;
+    border: 1px solid #002663;
+    font-family: Century Schoolbook;
+}
+.pager li>a:focus, .pager li>a:hover {
+    background: #002663;
+}
+.r1 {
+    float: left;
+    width:40%;
+}
+img.results {
+    margin-top: 21px;
+    margin-left: 40px;
+    border: 5px solid #616265;
+}
+.row2 h2 {
+
+}
+.resultLegend {
+    padding: 0 0px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.row2 {
+    float:right;
+    width: 60%;
+}
+.results .row {
+    margin-top: 0px;
+}
+.results .pager li>a {
+    padding: 8px 30px;
+    border-radius: 28px;
+    font-size: 21px;
+    font-family: Century Schoolbook;
+    text-decoration: none;
+}
+.results .col-sm-6 {
+    margin-top: 30px;
+}
+.results a {
+    text-decoration: underline;
+}
+.sup {
+    font-size: 50%;
+}
+
+@media (max-width: 768px) {
+    img.results {
+        margin-left: -10px;
+        margin-top: 0px;
+    }
+    .subheaderbar {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 416px) {
+    img.results {
+        margin-left: -10px;
+        margin-top: 0px;
+    }
+    .row2 {
+        float: none;
+        width: inherit;
+    }
+    .row2 h2 {
+        padding-top: 10px;
+    }
+}

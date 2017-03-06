@@ -1,0 +1,132 @@
+{
+    "quizName": "Which Car is Right for You: Gasoline, Electric or Hybrid?",
+    "quiz": [{
+        "question":"How long is your daily commute?",
+        "response": [
+            {"res": "Short, less than 20 miles total.", "val": 5},
+            {"res": "Average, about 20 miles one way.<sup>1</sup>", "val": 3},
+            {"res": "Long, 50 miles or more one way.", "val": 1}],
+        "why": "The number of miles you typically drive each day will matter most when deciding which to buy.",
+        "value": 1
+        },
+        {
+        "question": "What’s your daily route like?",
+        "response": [
+            {"res": "Surface streets in neighborhoods.", "val": 5},
+            {"res": "Mostly interstates and large thoroughfares.", "val": 1},
+            {"res": "Lots of hills and rural driving.", "val": 3}],
+        "why": "The type of driving you do will make a difference, since some of these vehicles handle driving tasks with more or less capability.",
+        "value": 1
+        },
+        {
+        "question": "Are you shopping for new or used cars?",
+        "response": [
+            {"res": "New.", "val": 5},
+            {"res": "Used.", "val": 3},
+            {"res": "Price matters more than whether the car is new or used.", "val": 1}],
+        "why": "With new drivetrain technology, availability is going to be an issue in the used-car market.",
+        "value": 1
+        },
+        {
+        "question": "How important is performance?",
+        "response": [
+            {"res": "I like to zip around town.", "val": 5},
+            {"res": "I like to open it up on clear roads.", "val": 1},
+            {"res": "Efficiency is my performance metric.", "val": 3}],
+        "why": "Each of these vehicles has its own sweet spot for performance; it’s just a matter of matching your type to the right car.",
+        "value": 1
+        },
+        {
+        "question": "Do you like new technology or familiar systems?",
+        "response": [
+            {"res": "I’ll wait and see how things pan out before buying.", "val": 3},
+            {"res": "I am skeptical of new technology.", "val": 1},
+            {"res": "I’m on board with the latest tech.", "val":5}],
+        "why": "Your preference for the tried-and-true or the shiny-and-new affect your choice.",
+        "value": 1
+        },
+        {
+        "question": "Do you have a garage or off-street parking?",
+        "response": [
+            {"res":"Yes, I have a garage.", "val":5},
+            {"res":"I have off-street parking.", "val": 3},
+            {"res":"I have on-street parking only.", "val": 1}],
+        "why": "Your parking situation says a lot about your ability to jump into EV ownership.",
+        "value": 1
+        },
+        {
+        "question": "Where do you live?",
+        "response": [
+            {"res": "House in the middle of nowhere", "val": 1},
+            {"res": "House in the suburbs", "val": 3},
+            {"res": "High-rise apartment in the city", "val": 5}],
+        "why": "Where you live might not seem to matter when deciding on a powertrain, but when you have to plug your car in to give it power, an electric vehicle or hybrid might be more or less doable depending on your location.",
+        "value": 1
+        },
+        {
+        "question": "How do you spend your leisure time?",
+        "response": [
+            {"res": "In the boat on the lake.", "val": 1},
+            {"res": "Car camping at state parks.", "val": 3},
+            {"res": "At the farmers’ market and concerts.", "val": 5}],
+        "why": "Use cases are important considerations for which kind of car will work best with your life.",
+        "value": 1
+        },
+        {
+        "question": "Do you mind regular maintenance?",
+        "response": [
+            {"res":"It’s necessary, so I don’t mind.", "val":3},
+            {"res": "I like to do as much of it myself as possible. ", "val":1},
+            {"res": "Hate. It.", "val":5}],
+        "why": "Some love getting their hands dirty, and some prefer that it all just works.",
+        "value": 1
+        },
+        {
+        "question": "What is your budget?",
+        "response": [
+            {"res":"I’m frugal when it comes to car shopping.", "val":1},
+            {"res": "I’ve got some wiggle room in my budget.", "val":3},
+            {"res": "I’m willing to pay for what I want.", "val":5}],
+        "why": "Knowing how much you’re comfortable spending makes this choice a bit more clear-cut.",
+        "value": 1
+        },
+        {
+        "question": "How green are you?",
+        "response": [
+            {"res":" I compost, buy organic cleaning supplies and belong to a local CSA that delivers vegetables.", "val":5},
+            {"res": "I recycle glass and paper, but I’d like to be greener.", "val": 3},
+            {"res": "Who has time to sort garbage?", "val": 1}],
+        "why": "This is an obvious question, but it’s worth putting some thought into how eco-conscious you are before spending thousands of dollars.",
+        "value": 1
+        },
+        {
+        "question": "How green is your city?",
+        "response": [
+            {"res":"Very — we have composting at the curb and a bike sharing program.", "val":5},
+            {"res": "Not so much — we have recycling centers, but I think I can do better.", "val": 3},
+            {"res": "Not at all. My town is too small for that.", "val": 1}],
+        "why": "Even if you have the best of eco intentions, it helps when your community supports them.",
+        "value": 1
+        },
+        {
+        "question": "Will this be your only car?",
+        "response": [
+            {"res": "Yes", "val":5},
+            {"res": "No", "val": 1},
+            {"res": "Perhaps", "val": 3}],
+        "why": "Some households have multiple people sharing one car, and some have a car for each person. Knowing where your new car will fit into your household will help you make the right decision.",
+        "value": 1
+        }
+    ],
+    "results": [
+        {"title": "Gas",
+        "text": "With perks like high-reliability, the newest features, more selection and a built-in warranty, a new car is a no-brainer if you can afford it. Just remember to shop around, do your research, and use the resources below to get tips for how to decide on the right car and get the best deal.",
+        "hero": "gas.jpg"},
+        {"title": "Hybrid",
+        "text": "Hybrids have come a long way since their first iterations over a decade ago. Many popular models are now available in a hybrid version and across a range of price points, new and used. So if you haven’t yet driven a hybrid, it’s worth a test drive to see if you like everything they have to offer.",
+        "hero": "hybrid.jpg"},
+        {"title": "Electric",
+        "text": "With generally higher MSRPs and less range, electric vehicles aren’t right for everyone. But they’re a great option if your lifestyle and driving needs can accommodate them – and yours seem to! Keep your eye out for federal and state tax incentives to help offset an electric vehicle’s higher sticker price.",
+        "hero": "electric.jpg"}
+    ]
+}
